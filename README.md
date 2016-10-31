@@ -18,14 +18,14 @@ NOTE: This version will work only with TensorFlow-0.9.0-devel!
    ```
    You can put any numner of sub-directories in your data folder, inception will be fine trained to classify
    any images in categories define by those sub-subdirectories.
-   
+   ```
    i.e.
    /cat
     -> Persian
     -> Bengal
     -> Burmese
     -> Ragdoll
-   
+   ```
    Will train inception to classify any picture into those 4 Cat's breeeds cathegories.
 
 * Classify you images with label_image.py:
