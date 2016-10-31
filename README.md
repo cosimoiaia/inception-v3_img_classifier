@@ -28,3 +28,7 @@ NOTE: This version will work only with TensorFlow-0.9.0-devel!
    
    Will train inception to classify any picture into those 4 Cat's breeeds cathegories.
 
+* Classify you images with label_image.py:
+   ```bash
+   ./label_image.py --datafolder=/tensorflow --image_path=img/cat.jpg
+   ```
