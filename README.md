@@ -16,7 +16,7 @@ NOTE: This version will work only with TensorFlow-0.9.0-devel!
    ```bash
    $ ./train.sh --tf_bin=/path/to/tensorflow/installation --tf_data=/path/to/images/data/folder.
    ```
-   You can put any numner of sub-directories in your data folder, inception will be fine trained to classify
+   You can put any number of sub-directories in your data folder, inception will be fine trained to classify
    any images in categories define by those sub-subdirectories.
    ```
    i.e.
