@@ -14,7 +14,7 @@ NOTE: This version will work only with TensorFlow-0.9.0-devel!
 <b>Usage:</b>
 * Fine train the Inception v3 model using the train.sh script:
    ```bash
-   ./train.sh --tf_bin=/path/to/tensorflow/installation --tf_data=/path/to/images/data/folder.
+   $ ./train.sh --tf_bin=/path/to/tensorflow/installation --tf_data=/path/to/images/data/folder.
    ```
    You can put any numner of sub-directories in your data folder, inception will be fine trained to classify
    any images in categories define by those sub-subdirectories.
@@ -30,5 +30,9 @@ NOTE: This version will work only with TensorFlow-0.9.0-devel!
 
 * Classify you images with label_image.py:
    ```bash
-   ./label_image.py --datafolder=/tensorflow --image_path=img/cat.jpg
+   $ ./label_image.py --datafolder=/tensorflow --image_path=img/cat.jpg
+   Persian (score = 0.88331)
+   Bengal (score = 0.11669)
+   Burmese (score = 0.23879)
+   Ragdoll (score = 0.17469)
    ```
