@@ -9,7 +9,7 @@ NOTE: This version will work only with TensorFlow-0.9.0-devel!
 
 <b>Dependencies</b>
 * Python >= 2.7
-* Tensorflow 0.9.0-devel
+* Tensorflow 0.9.0-devel (see https://www.tensorflow.org/versions/r0.9/get_started/os_setup.html)
 
 <b>Usage:</b>
 * Fine train the Inception v3 model using the train.sh script:
