@@ -5,5 +5,26 @@ Based on:
 *  Tensorflow example https://www.tensorflow.org/versions/r0.11/how_tos/image_retraining/index.html#training-on-your-own-categories
 *  This great article on codeLabs https://codelabs.developers.google.com/codelabs/tensorflow-for-poets/#0
 
-NOTE: This version works with TensorFlow-0.9.0-devel!
+NOTE: This version will work only with TensorFlow-0.9.0-devel!
+
+<b>Dependencies</b>
+* Python >= 2.7
+* Tensorflow 0.9.0-devel
+
+<b>Usage:</b>
+* Fine train the Inception v3 model using the train.sh script:
+   ```bash
+   ./train.sh --tf_bin=/path/to/tensorflow/installation --tf_data=/path/to/images/data/folder.
+   ```
+   You can put any numner of sub-directories in your data folder, inception will be fine trained to classify
+   any images in categories define by those sub-subdirectories.
+   
+   i.e.
+   /cat
+    -> Persian
+    -> Bengal
+    -> Burmese
+    -> Ragdoll
+   
+   Will train inception to classify any picture into those 4 Cat's breeeds cathegories.
 
